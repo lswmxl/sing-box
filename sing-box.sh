@@ -62,11 +62,11 @@ install_singbox(){
 
 
     if [[ $SYSTEM == "CentOS" ]]; then
-        wget -N --no-check-certificate https://5th.pp.ua/https://github.com/SagerNet/sing-box/releases/download/$version_tag/sing-box_"$download_tag"_linux_$(archAffix).rpm
+        wget -N --no-check-certificate https://5th.pp.ua/.com/SagerNet/sing-box/releases/download/$version_tag/sing-box_"$download_tag"_linux_$(archAffix).rpm
         rpm -i sing-box_"$download_tag"_linux_$(archAffix).rpm
         rm -f sing-box_"$download_tag"_linux_$(archAffix).rpm
     else
-        wget -N --no-check-certificate https://5th.pp.ua/https://github.com/SagerNet/sing-box/releases/download/$version_tag/sing-box_"$download_tag"_linux_$(archAffix).deb
+        wget -N --no-check-certificate https://5th.pp.ua/.com/SagerNet/sing-box/releases/download/$version_tag/sing-box_"$download_tag"_linux_$(archAffix).deb
         dpkg -i sing-box_"$download_tag"_linux_$(archAffix).deb
         rm -f sing-box_"$download_tag"_linux_$(archAffix).deb
     fi
