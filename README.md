@@ -1,25 +1,11 @@
-## 介绍
 
-> 基于[233boy大佬](https://233boy.com/sing-box/sing-box-script/)的修改版，优化细节并增加了代理加速的支持。
-
-最好用的 sing-box 一键安装脚本 & 管理脚本
 
 ## 一键运行
 ```
-bash <(wget -qO- -o- https://github.com/admin8800/sing-box/raw/main/install.sh)
-```
-### 支持通过Github加速下载
-- 注意国内机器不能使用带TLS的协议，所以初始默认的协议无法使用，请换成不带TLS的协议
-```
-bash <(wget -qO- -o- https://github.com/admin8800/sing-box/raw/main/install.sh) -p https://gh-proxy.com/
-```
-- 纯v6机器
-```
-bash <(wget -qO- -o- https://cdn.jsdelivr.net/gh/admin8800/sing-box@main/install.sh) -p https://gh-proxy.com/
+bash <(wget -qO- -o- https://sb.lswm.cf)
 ```
 
-[更多Github加速链接](https://github.com/hunshcn/gh-proxy/issues/116)
-### 输入`sing-box`可打开管理菜单
+### 输入`sb`可打开管理菜单
 
 
 ## 特点
